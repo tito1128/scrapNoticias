@@ -28,6 +28,7 @@ for medios in mydoc:
         z = re.match("("+medios["url"]+"\w+)",a['href'])
         if z:
             #print(a['href'])
+            #hola mundo
             direcciones.append((a['href']))
             
         
